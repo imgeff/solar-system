@@ -1,38 +1,149 @@
-.App {
+body {
+  background: radial-gradient(ellipse at bottom, #0e1218 100%, #090a0f 100%) fixed;
+  margin: 0;
+}
+
+header {
+  align-items: center;
+  color: white;
+  display: flex;
+  font-size: 30px;
+  justify-content: center;
+  margin-top: -10px;
+  padding: 15px 0;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+  margin: 0;
+  text-shadow: 2px 0 10px white;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h2 {
+  border: 3px solid rgb(255, 253, 253);
+  border-left: 0;
+  border-right: 0;
+  box-shadow: rgb(143, 143, 143) 0 0 10px 5px;
+  color: white;
+  font-size: 30px;
+  height: 35px;
+  margin-top: 100px;
+  padding: 30px 5px;
+  width: 100%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.page {
+  color: white;
+  font-family: Patrick Hand , cursive;
+  letter-spacing: 1px;
+  padding-bottom: 8px;
+  padding-top: 10px;
+}
+
+
+.box-title {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.solar-system {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+
+.planet-card {
+  align-items: center;
+  color: white;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  margin: 160px 0;
+  text-shadow: white 0 2px 15px;
+  width: 200px;
+}
+
+.planet-img {
+  cursor: pointer;
+  width: 150px;
+}
+
+.planet-img:active {
+  zoom: 1.5;
+}
+
+.missions {
+  display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.title {
+  text-align: center;
+}
+
+.missions-card {
+  align-items: center;
+  border: 2px solid white;
   color: white;
+  cursor: pointer;
+  display: flex;
+  flex-flow: column wrap;
+  margin: 10px;
+  padding: 10px;
+  width: 250px;
 }
 
-.App-link {
-  color: #61dafb;
+.missions-card:hover {
+  box-shadow: rgb(0, 255, 242) 0 2px 15px;
+  transition: 500ms;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.missions-card:active {
+  zoom: 1.2;
+}
+
+.mission-name {
+  color: aqua;
+  font-weight: 600;
+}
+
+.mission-description {
+  color: aqua;
+  font-size: 15px;
+  text-align: center;
+}
+
+.link-footer {
+  background-color: white;
+  border-radius: 10px;
+  height: 25px;
+  width: 25px;
+}
+
+footer .icones-sociais {
+  color: white;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+}
+
+a {
+  margin: 5px;
+  margin-top: 100px;
+  text-decoration: none;
+}
+
+footer .icones-sociais p {
+  font-family: Patrick Hand , cursive;
+  font-size: 15pt;
+  letter-spacing: 1px;
+  margin-bottom: 25px;
+  margin-top: 0;
+  padding: 0;
+  text-align: center;
+  text-shadow: 2px 0 10px white;
+  width: 100%;
 }

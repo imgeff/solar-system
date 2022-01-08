@@ -220,6 +220,6 @@ a sonda era inicialmente chamada de Planeta-B.`,
   },
 ];
 
-// Missions.sort((a, b) => b.year - a.year);
+Missions.sort((a, b) => b.year - a.year);
 
 export default Missions;

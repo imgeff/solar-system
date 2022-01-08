@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import arrow from '../images/arrow.png';
 
 class MissionCard extends React.Component {
   constructor() {
@@ -26,17 +25,15 @@ class MissionCard extends React.Component {
         >
           {destination}
         </span>
-        <img
-          className="mission-img"
-          src={ arrow }
-          alt="arrow"
-        />
-        <span
-          className="mission-description"
-          data-testid="mission-description"
-        >
-          { description }
-        </span>
+        <details>
+          <summary>Descrição</summary>
+          <p
+            className="mission-description"
+            data-testid="mission-description"
+          >
+            { description }
+          </p>
+        </details>
       </div>
     );
   }

@@ -101,8 +101,14 @@ h2 {
   transition: 500ms;
 }
 
-.missions-card:active {
-  zoom: 1.2;
+details summary::marker {
+  color: aqua;
+  margin: 0;
+}
+
+summary {
+  color: aqua;
+  text-align: center;
 }
 
 .mission-name {
@@ -121,6 +127,11 @@ h2 {
   border-radius: 10px;
   height: 25px;
   width: 25px;
+}
+
+footer {
+  margin-top: 100px;
+  position: relative;
 }
 
 footer .icones-sociais {

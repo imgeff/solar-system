@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/solar-system/static/css/main.28d84a3e.chunk.css",
-    "main.js": "/solar-system/static/js/main.5583c5db.chunk.js",
-    "main.js.map": "/solar-system/static/js/main.5583c5db.chunk.js.map",
+    "main.css": "/solar-system/static/css/main.e94e9034.chunk.css",
+    "main.js": "/solar-system/static/js/main.3047f6cf.chunk.js",
+    "main.js.map": "/solar-system/static/js/main.3047f6cf.chunk.js.map",
     "runtime-main.js": "/solar-system/static/js/runtime-main.24f1671b.js",
     "runtime-main.js.map": "/solar-system/static/js/runtime-main.24f1671b.js.map",
     "static/js/2.4d0ec90c.chunk.js": "/solar-system/static/js/2.4d0ec90c.chunk.js",
     "static/js/2.4d0ec90c.chunk.js.map": "/solar-system/static/js/2.4d0ec90c.chunk.js.map",
     "index.html": "/solar-system/index.html",
-    "static/css/main.28d84a3e.chunk.css.map": "/solar-system/static/css/main.28d84a3e.chunk.css.map",
+    "static/css/main.e94e9034.chunk.css.map": "/solar-system/static/css/main.e94e9034.chunk.css.map",
     "static/js/2.4d0ec90c.chunk.js.LICENSE.txt": "/solar-system/static/js/2.4d0ec90c.chunk.js.LICENSE.txt",
     "static/media/Jupiter.529cdbe0.png": "/solar-system/static/media/Jupiter.529cdbe0.png",
     "static/media/Marte.6cae79d3.png": "/solar-system/static/media/Marte.6cae79d3.png",
@@ -23,7 +23,7 @@
   "entrypoints": [
     "static/js/runtime-main.24f1671b.js",
     "static/js/2.4d0ec90c.chunk.js",
-    "static/css/main.28d84a3e.chunk.css",
-    "static/js/main.5583c5db.chunk.js"
+    "static/css/main.e94e9034.chunk.css",
+    "static/js/main.3047f6cf.chunk.js"
   ]
 }

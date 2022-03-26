@@ -55,6 +55,9 @@ A parte mais desafiadora nesse projeto foi acostumar com a componentização e s
 
 - Adição de Favicon;
 - Utilização da tag `<details></details>` para visualização da descrição das missões espaciais.
+
+## Deploy
+- **Github Pages:** https://imgeff.github.io/solar-system/
 ## Rodando localmente
 
 1. Clone o repositório
